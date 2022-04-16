@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="utf-8">
+    <title>Данные</title>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body class="contact">
+  
+    <header>
+            <h1 class="cont">Запись</h1>
+            <div class="cont" ><a href="index.html" >Главная</div></a>
+            </header>
+    <form><form action="send.php" method="post">
+    <div class="name">
+    <h3><input class="data" type="text" placeholder="Имя" name="firstname"><br>
+    <input class="data" type="text" placeholder="Фамилия" name="Lastname"><br>   
+    <input class="data" type="text" placeholder="Email" name="Email"><br>
+    <input class="data" type="text" placeholder="Телефон" name="numberPhone"><br>
+    <input class="data" type="text" placeholder="Возраст" name="Age"><br>
+    <input class="data" type="text" placeholder="Вес" name="weight" ><br>
+</form><br>
+        Ваш пол:
+        <div class="form_toggle">
+            <div class="form_toggle-item item-2">
+                <input id="fid-1" type="radio" name="radio" value="off" checked>
+                <label for="fid-1">Мужчина</label>
+            </div>
+            <div class="form_toggle-item item-2">
+                <input id="fid-2" type="radio" name="radio" value="on">
+                <label for="fid-2">Женщина</label>
+            </div>
+        </div><br>
+        Какой вид массажа:<br>
+            <div class="checkbox">
+                <label class="custom-checkbox">
+                  <input type="checkbox" name="color-1" value="indigo">
+                  <span>Общий</span>
+                </label>
+              </div>
+            <div class="checkbox">
+                <label class="custom-checkbox">
+                  <input type="checkbox" name="color-1" value="indigo">
+                  <span>Ноги</span>
+                </label>
+              </div>
+            <div class="checkbox">
+                <label class="custom-checkbox">
+                  <input type="checkbox" name="color-1" value="indigo">
+                  <span>Спина</span>
+                </label>
+              </div>
+            <div class="checkbox">
+                <label class="custom-checkbox">
+                  <input type="checkbox" name="color-1" value="indigo">
+                  <span>Шейно-воротниковая зона</span>
+                </label>
+              </div>
+        </h3>
+    <p><h2>Выберите удобное для вас время:</h2>
+      <input class="data" type="datetime-local" id="datetime-local">
+    </select></p>
+    <label>
+        <h2>Дополнительные комментарии:</h2>
+    
+        <textarea class="data" cols="30" rows="5" name="message"></textarea><br>
+    </label>
+    <p><input class="data" type="submit" value="Отправить данные"> 
+    <input class="data" type="reset" value="Отмена">
+    </form><br></p>
+    <h3>Мы находимся по адресу: г. Москва ул. Новый арбат д. 23</h3>    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.371688258946!2d37.579708716046305!3d55.75204519951768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bb573693ff9%3A0xa5ee9d67688fabb3!2z0J3QvtCy0YvQuSDQkNGA0LHQsNGCINGD0LsuLCAyMywg0JzQvtGB0LrQstCwLCAxMjEwOTk!5e0!3m2!1sru!2sru!4v1606497665965!5m2!1sru!2sru" width="100%" height="374" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </ul>
+    </div>
+</body>
+</html>
